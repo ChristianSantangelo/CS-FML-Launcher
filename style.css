@@ -1,0 +1,55 @@
+body {
+  background-color: ghostwhite;
+  font-family: monospace;
+  color: darkslategray;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+h1 {
+  font-size: 5.2vw;
+  text-align: center
+}
+h2 {
+  font-size: 2.2vw;
+}
+h5 {
+  font-size: 1.2vw;
+  float: right
+}
+p {
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: right
+}
+img {
+  width: 8vw;
+  float: right;
+  margin-left: 10px;
+  border-style: double;
+  border-width: 8px;
+  border-radius: 10px
+}
+.text {
+  cursor: crosshair
+}
+.text1 {
+  cursor: grab
+}
+.back {
+  text-align: center;
+  font-size: 14px
+}
+#whitebg {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+#inlinewhitebg {
+  display: inline-block;
+  padding: 8px;
+  background-color: white;
+}
+#att {
+  font-size: 0.7vw;
+  float: right
+}
