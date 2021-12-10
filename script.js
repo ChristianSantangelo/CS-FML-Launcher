@@ -1,4 +1,5 @@
-while (1 < 2) {
+// Grab Date & Time
   const d = new Date();
   document.getElementById("date").innerHTML = d;
-}
+  
+  
