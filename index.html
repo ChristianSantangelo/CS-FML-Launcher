@@ -12,11 +12,11 @@
     <title>Main Page</title>
     <link rel="icon" type="image/png" href="forge.jpeg">
   </head>
-  <body onload="gettime()">
-    <form name="clockform">
-    <input type="text" name="clock">
+  <body onload="updateClock(); setInterval('updateClock()', 1000 )">
     <!--Main Page Title-->
-    <p id="date"></p>
+    <script>
+     document.write(updateTime());
+    </script>
     <h1 class="text" id="whitebg">Minecraft FML Launcher</h1>
     <p class="text">Made by Christian Santangelo</p>
     <!--Table Of Contents-->
