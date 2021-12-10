@@ -1,5 +1,5 @@
-function date() { // Grab Date & Time
-  const d = new Date();
-  document.getElementById("date").innerHTML = d;
+function date() {
+	const d = new Date();
+	document.getElementById("date").innerHTML = d;
 }
   
