@@ -1,16 +1,7 @@
-function updateTime(){
-    var currentTime = new Date()
-    var hours = currentTime.getHours()
-    var minutes = currentTime.getMinutes()
-    if (minutes < 10){
-        minutes = "0" + minutes
-    }
-    var t_str = hours + ":" + minutes + " ";
-    if(hours > 11){
-        t_str += "PM";
-    } else {
-        t_str += "AM";
-    }
-    document.getElementById('time_span').innerHTML = t_str;
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(); // Fill in
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
 }
-setInterval(updateTime, 1000);
